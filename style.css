@@ -1,0 +1,134 @@
+ */style buat web bali - Yansy Mulyanti P.*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fffaf5;
+  color: #333;
+}
+
+/* hero / bagian atas */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+  url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=2000');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #ff7e5f;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* section */
+section {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #ff7e5f;
+  font-size: 28px;
+}
+
+.sub-judul {
+  text-align: center;
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
+
+/* grid pantai */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 15px;
+}
+
+.info h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.info p {
+  font-size: 13px;
+  color: #666;
+}
+
+/* tips box */
+.kotak-tips {
+  background: #fff0e6;
+  padding: 25px;
+  border-radius: 15px;
+  border-left: 5px solid #ff7e5f;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+/* buat hp */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-text h1 {
+    font-size: 35px;
+  }
+  }
+
+/* buat hp */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-text h1 {
+    font-size: 35px;
+  }
+  }
